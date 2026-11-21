@@ -3,7 +3,9 @@
 Homebrew formulae.
 
 ```sh
-brew install GiuseppeDaddario/tap/anime
+brew tap GiuseppeDaddario/tap
+brew trust GiuseppeDaddario/tap   # Homebrew 7+
+brew install anime
 ```
 
 `Formula/anime.rb` is updated automatically by the release workflow of
