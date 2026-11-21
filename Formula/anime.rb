@@ -2,17 +2,17 @@ class Anime < Formula
   desc "Terminal anime catalogue, playback and Telegram history"
   homepage "https://github.com/GiuseppeDaddario/anime"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
   depends_on :macos
   depends_on "mpv"
 
   on_arm do
-    url "https://github.com/GiuseppeDaddario/anime/releases/download/v0.1.0/anime_v0.1.0_darwin_arm64.tar.gz"
-    sha256 "ce26bf6ba989a5dd0381238c513fa7eeda38bf096d9b0db07270e8d9675b9cf9"
+    url "https://github.com/GiuseppeDaddario/anime/releases/download/v0.2.0/anime_v0.2.0_darwin_arm64.tar.gz"
+    sha256 "873f98179610a9107cfe44de0cb9a486de63e1f2fb98d1f83e1f509caaf47872"
   end
   on_intel do
-    url "https://github.com/GiuseppeDaddario/anime/releases/download/v0.1.0/anime_v0.1.0_darwin_amd64.tar.gz"
-    sha256 "1a401e3ba0c8ce1470b4cea81dbf6aacd57400678047b91da8fecc8ba101c809"
+    url "https://github.com/GiuseppeDaddario/anime/releases/download/v0.2.0/anime_v0.2.0_darwin_amd64.tar.gz"
+    sha256 "5a220a8d698b18e0caa274cd83b1b86eee4c4714bd232c2bd11aa2d199a66300"
   end
 
   def install
